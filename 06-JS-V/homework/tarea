@@ -1,0 +1,6 @@
+Prototype: es una funcion preestablecida que tienen todos los elementos de javascript 
+ocultos que nos permiten realizar distinas funciones dependiendo de que tipo sea el 
+Prototype
+
+Constructors: es un metodo especial para crear e inicializar un objeto creado a 
+partir de una clase. 
