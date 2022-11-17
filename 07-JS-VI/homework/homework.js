@@ -1,6 +1,6 @@
 // Do not change any of the function names
 
-function mayuscula(nombre) {
+function mayuscula(nombr) {
   //La función recibe un nombre y debe devolver el mismo que recibe pero con su primer letra en mayúscula
   //ej: Recibe "mario" ----> Devuelve "Mario"
   //Tu código:
@@ -25,10 +25,10 @@ function sumarArray(numeros, cb) {
   // Pasa el resultado a `cb`
   // No es necesario devolver nada
   //Tu código:
-  var suma = numeros.reduce(function(acc , numero){
-  return acc + numero 
-}, 0)
-cb(suma);
+  var suma = numeros.reduce(function(contador , numero){
+  return contador + numero 
+}, 0)  
+   cb(suma);
 }
 function forEach(array, cb) {
   // Itera sobre la matriz "array" y pasa los valores al callback uno por uno
